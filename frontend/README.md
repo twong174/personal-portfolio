@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-This is my personal portfolio website, where I showcase my skills, projects, and background as a developer. The design is inspired by Brittany Chiang's v3 portfolio, but all the coding and styling were done by me.
+This is my personal portfolio website, where I showcase my skills, projects, and background as a developer. The design is inspired by Brittany Chiang's v3 portfolio, but all the coding was done by me.
 
 ## Technologies Used:
 
