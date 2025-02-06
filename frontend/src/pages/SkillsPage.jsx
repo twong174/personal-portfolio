@@ -2,11 +2,11 @@ import React from "react";
 
 const SkillsPage = () => {
   return (
-    <div className=" grid grid-cols-[1fr_4fr] mx-40">
+    <div className=" grid grid-cols-1 md:grid-cols-[1fr_4fr] mx-14 md:mx-40">
       <div>
         <h1 className="font-semibold text-orange-500 text-lg"> SKILLS </h1>
       </div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-2 gap-4 mt-4 md:grid-cols-3 md:mt-0">
         <div>
           <p className="font-semibold text-lg"> LANGUAGES</p>
 

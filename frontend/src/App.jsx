@@ -38,7 +38,7 @@ const App = () => {
         </button>
       </header>
 
-      <main className="w-full p-2 flex flex-col gap-40">
+      <main className="w-full p-2 flex flex-col gap-20 md:gap-50">
         <IntroPage />
         <BackgroundPage />
         <SkillsPage />

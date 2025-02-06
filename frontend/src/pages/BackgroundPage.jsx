@@ -4,7 +4,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const BackgroundPage = () => {
   return (
-    <div className="grid grid-cols-[1fr_4fr] mx-40">
+    <div className="grid grid-cols-1 md:grid-cols-[1fr_4fr] mx-14 md:mx-40 gap-4">
       <div>
         <h1 className="font-semibold text-orange-500 text-lg"> BACKGROUND </h1>
       </div>
@@ -27,7 +27,11 @@ const BackgroundPage = () => {
           active and exploring new experiences beyond the screen.
         </p>
         <h1 className="mt-6 text-md font-semibold transition duration-400 ease-in">
-          <a href = "/resume.pdf" target="_blank" className="flex items-center gap-1 group">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            className="flex items-center gap-1 group"
+          >
             Full Resume
             <span className="transition-transform duration-300 ease-in-out group-hover:translate-x-2">
               <ArrowForwardIcon fontSize="sm" />

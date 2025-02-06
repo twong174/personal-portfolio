@@ -4,9 +4,9 @@ import ProjectWidget from "../widgets/ProjectWidget";
 
 const ProjectPage = () => {
   return (
-    <div className=" grid grid-cols-[1fr_4fr] mx-40">
+    <div className=" grid grid-cols-1 md:grid-cols-[1fr_4fr] mx-14 md:mx-40">
       <div>
-        <h1 className="font-semibold text-orange-500 text-lg"> PROJECTS </h1>
+        <h1 className="font-semibold text-orange-500 text-lg mb-4"> PROJECTS </h1>
       </div>
       <div className="flex flex-col gap-6">
         <ProjectWidget
