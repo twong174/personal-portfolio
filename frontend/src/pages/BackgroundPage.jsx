@@ -19,7 +19,7 @@ const BackgroundPage = () => {
           Always eager to expand my skill set, I have taken courses such as Data
           Structures, Computer Organization & Algorithms, and Internet & Web
           Programming, among others. I continuously seek opportunities to learn
-          and grow as a developer.{" "}
+          and grow as a developer.
         </p>
         <p className="font-light">
           Outside of coding, you'll often find me biking through Central Park,

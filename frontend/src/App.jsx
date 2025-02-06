@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import IntroPage from "./pages/IntroPage";
 import BackgroundPage from "./pages/BackgroundPage";
-import ProjectPage from "./pages/ProjectPage";
 import SkillsPage from "./pages/SkillsPage";
+import ProjectPage from "./pages/ProjectPage";
 import Footer from "./Footer";
 
 import DarkModeIcon from "@mui/icons-material/DarkMode";
@@ -38,7 +36,7 @@ const App = () => {
         </button>
       </header>
 
-      <main className="w-full p-2 flex flex-col gap-20 md:gap-50">
+      <main className="w-full p-2 flex flex-col gap-10 md:gap-50">
         <IntroPage />
         <BackgroundPage />
         <SkillsPage />
